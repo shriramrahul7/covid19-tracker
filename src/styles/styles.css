@@ -1,0 +1,10 @@
+body {
+  all : initial;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight : 600;
+/*   background-color: #60A5FA; */
+  background-image : linear-gradient(to bottom, #60A5FA,  #60A5FA )
+}
