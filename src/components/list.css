@@ -1,0 +1,22 @@
+.list{
+  margin : 0 auto;
+  min-width : 80vw;
+}
+
+#search {
+width: 20rem;
+height: 2rem;
+text-align : center;
+border-radius: 0.75rem;
+border : solid 2px gray;
+  font-size : 1rem;
+  font-wieght : bold;
+ background-image : linear-gradient(to right,#DBEAFE, #DBEAFE, #93C5FD);
+}
+
+@media only screen and (min-width: 600px) {
+  /* For mobile phones: */
+  .list{
+    min-width : 30vw;
+  }
+}

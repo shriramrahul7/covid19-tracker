@@ -1,0 +1,7 @@
+.wrapper {
+  display : flex;
+  items-align :center;
+  text-align : center;
+  flex-direction : column;
+  
+}

@@ -1,0 +1,45 @@
+p{
+  all : unset;
+}
+
+.Card {
+  background-image : linear-gradient(to right,#DBEAFE, #DBEAFE, #BFDBFE);
+  padding : 1rem;
+  margin : 1rem;
+  border-radius : 2rem;
+  font-size : 0.9rem;
+}
+.name {
+  font-size : 2rem;
+  items-align : center;
+  justify-content : center;
+/*   margin : ; */
+}
+.row{
+  display : grid;
+  grid-gap : 2rem;
+  margin : 0.5rem 3rem;
+  grid-template-columns : 1fr 1fr;
+}
+
+.column {
+  display : flex;
+  flex-direction : column;
+  text-align : left;
+}
+
+.stats {
+  font-size: 1.5rem;
+}
+
+.recovery {
+  color : #16A34A;
+}
+
+.confirm {
+  color : #0369A1
+}
+
+.death {
+  color : #BE123C
+}
